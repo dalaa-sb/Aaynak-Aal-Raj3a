@@ -1,0 +1,298 @@
+{
+  "common": {
+    "save": "حفظ",
+    "saving": "جارٍ الحفظ...",
+    "saved": "تم الحفظ",
+    "cancel": "إلغاء",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "confirm": "تأكيد",
+    "loading": "جارٍ التحميل...",
+    "refresh": "تحديث",
+    "search": "بحث",
+    "filter": "تصفية",
+    "all": "الكل",
+    "none": "لا شيء",
+    "yes": "نعم",
+    "no": "لا",
+    "back": "رجوع",
+    "next": "التالي",
+    "submit": "إرسال",
+    "close": "إغلاق",
+    "language": "اللغة",
+    "preview": "معاينة",
+    "download": "تنزيل",
+    "details": "تفاصيل"
+  },
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "cameras": "الكاميرات",
+    "alerts": "التنبيهات",
+    "analytics": "التحليلات",
+    "reports": "التقارير",
+    "users": "إدارة المستخدمين",
+    "audit": "سجل التدقيق",
+    "health": "حالة النظام",
+    "settings": "الإعدادات",
+    "logout": "تسجيل الخروج",
+    "profile": "الملف الشخصي"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "passengers": "المسافرون",
+    "activeAlerts": "تنبيهات نشطة",
+    "criticalZones": "مناطق حرجة",
+    "avgWait": "متوسط الانتظار",
+    "lastSync": "آخر مزامنة",
+    "connecting": "جارٍ الاتصال...",
+    "acrossAllZones": "في جميع المناطق",
+    "criticalSuffix": "حرج",
+    "immediateAction": "إجراء فوري",
+    "allQueues": "جميع الطوابير",
+    "interactiveMap": "خريطة المطار التفاعلية"
+  },
+  "alerts": {
+    "title": "التنبيهات والحوادث",
+    "subtitle": "{{count}} حادث نشط · يتم تتبع المسار",
+    "feed": "تدفق التنبيهات",
+    "active": "{{count}} نشط",
+    "criticalUnresolved": "{{count}} حرج غير محلول",
+    "noAlerts": "كل الأنظمة آمنة",
+    "noMatches": "لا توجد تنبيهات تطابق المرشحات",
+    "filterStatus": "الحالة",
+    "filterSeverity": "الخطورة",
+    "status": {
+      "all": "الكل",
+      "active": "نشط",
+      "new": "جديد",
+      "acknowledged": "مُستلم",
+      "investigating": "قيد التحقيق",
+      "resolved": "تم الحل",
+      "dismissed": "تم الرفض"
+    },
+    "severity": {
+      "critical": "حرج",
+      "high": "مرتفع",
+      "medium": "متوسط",
+      "low": "منخفض"
+    },
+    "actions": {
+      "acknowledge": "استلام",
+      "investigate": "تحقيق",
+      "resolve": "حل",
+      "dismiss": "رفض",
+      "trail": "السجل",
+      "hide": "إخفاء"
+    },
+    "noteFor": "سبب {{status}} (اختياري)…",
+    "showing": "عرض {{count}}",
+    "bulk": {
+      "dismissFiltered": "تجاهل المحدد",
+      "deleteFiltered": "حذف المحدد",
+      "dismissedN": "تم تجاهل {{count}} تنبيه",
+      "deletedN": "تم حذف {{count}} تنبيه",
+      "failed": "فشل تنفيذ العملية",
+      "dismissConfirmTitle": "تجاهل التنبيهات المحددة؟",
+      "dismissConfirmBody": "سيتم تحديد {{count}} تنبيه كمتجاهل. لن يتم حذفها.",
+      "deleteConfirmTitle": "حذف التنبيهات المحددة؟",
+      "deleteConfirmBody": "سيتم حذف {{count}} تنبيه نهائياً. لا يمكن التراجع عن هذا الإجراء.",
+      "confirmDismiss": "تجاهل",
+      "confirmDelete": "حذف"
+    }
+  },
+  "suspicious": {
+    "title": "الإبلاغ عن نشاط مريب",
+    "selectZone": "اختر منطقة",
+    "selectCamera": "اختر كاميرا",
+    "activityType": "نوع النشاط",
+    "selectActivity": "— اختر نوع النشاط —",
+    "customActivity": "اكتب نوع النشاط…",
+    "severity": "الخطورة",
+    "notes": "ملاحظات إضافية (اختياري)…",
+    "submit": "إرسال البلاغ",
+    "submitting": "جارٍ الإرسال...",
+    "success": "تم تقديم البلاغ وإضافته إلى أرشيف التقارير.",
+    "officialArabicLabel": "نوع النشاط المشبوه",
+    "officialArabicHelper": "هذه عناوين تشغيلية رسمية باللغة العربية تستخدمها أمن المطار. القائمة باللغة العربية عمداً.",
+    "selectZoneError": "اختر منطقة",
+    "selectCameraError": "اختر كاميرا",
+    "selectActivityError": "اختر نوع النشاط",
+    "typeCustomError": "اكتب وصف النشاط",
+    "severityPrefix": "الخطورة"
+  },
+  "reports": {
+    "title": "التقارير والتحليلات",
+    "subtitle": "تقارير مركزية · مساعد آلي",
+    "tabs": {
+      "generated": "المُولَّدة",
+      "suspicious": "النشاط المريب"
+    },
+    "aiAssistant": {
+      "title": "مساعد التقارير التحليلية الآلي",
+      "description": "يجمع البيانات التشغيلية ويولّد تقريراً منظماً مع رؤى وتوصيات. تحليل إحصائي حتمي — يحترم الخصوصية، ويعمل بدون اتصال.",
+      "generateDaily": "تقرير يومي (٢٤ ساعة)",
+      "generateWeekly": "تقرير أسبوعي (٧ أيام)",
+      "generateMonthly": "تقرير شهري (٣٠ يوم)"
+    },
+    "noReports": "لا توجد تقارير بعد",
+    "noReportsAdmin": "اضغط زر التوليد لإنشاء أول تقرير.",
+    "noReportsUser": "يمكن للمسؤول توليد التقارير — ستظهر هنا.",
+    "noSuspicious": "لا توجد بلاغات مريبة",
+    "noSuspiciousHint": "يمكن للضباط تقديم البلاغات من صفحة التنبيهات.",
+    "actions": {
+      "preview": "معاينة",
+      "downloadPdf": "تنزيل PDF",
+      "delete": "حذف"
+    },
+    "kv": {
+      "bySeverity": "حسب الخطورة",
+      "byZone": "حسب المنطقة",
+      "byType": "حسب نوع النشاط"
+    }
+  },
+  "profile": {
+    "title": "تعديل الملف الشخصي",
+    "subtitle": "حدّث معلوماتك الشخصية",
+    "fullName": "الاسم الكامل",
+    "username": "اسم المستخدم",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف (اختياري)",
+    "phonePlaceholder": "+961 70 000 000",
+    "role": "الدور",
+    "language": "اللغة المفضلة",
+    "saveProfile": "حفظ الملف",
+    "savedSuccessfully": "تم حفظ الملف بنجاح",
+    "usernameNote": "لا يمكن تغيير اسم المستخدم بعد التسجيل",
+    "emailNote": "تغيير البريد يتطلب إعادة التحقق (غير مدعوم حالياً)",
+    "roleNote": "يحدد المسؤول دورك",
+    "languageNote": "ستتبدل الواجهة فوراً"
+  },
+  "settings": {
+    "title": "إعدادات النظام",
+    "subtitle": "المسؤول · ضبط العتبات والمعاملات",
+    "subtitleNonAdmin": "التفضيلات الشخصية",
+    "thresholds": {
+      "title": "ضبط عتبات الطابور",
+      "queueWarning": "تحذير الطابور (أشخاص)",
+      "queueWarningDesc": "عادي → تحذير",
+      "queueCritical": "حرج الطابور (أشخاص)",
+      "queueCriticalDesc": "تحذير → حرج",
+      "densityWarning": "تحذير الكثافة (%)",
+      "densityWarningDesc": "عتبة كثافة الحشد",
+      "densityCritical": "حرج الكثافة (%)",
+      "densityCriticalDesc": "أقصى كثافة حشد",
+      "loiterMinutes": "وقت التسكع (دقيقة)",
+      "loiterMinutesDesc": "محفّز تنبيه التسكع",
+      "maxStayMinutes": "أقصى مدة للتواجد (دقيقة)",
+      "maxStayMinutesDesc": "محفّز تنبيه البقاء الزائد",
+      "confidenceThreshold": "عتبة ثقة الذكاء الاصطناعي",
+      "confidenceThresholdDesc": "من 0.0 إلى 1.0"
+    },
+    "saved": "تم حفظ الإعدادات",
+    "errors": {
+      "negativeNotAllowed": "القيم السالبة غير مسموح بها",
+      "criticalLessThanWarning": "العتبة الحرجة يجب أن تكون أكبر من أو تساوي عتبة التحذير",
+      "outOfRange": "القيمة خارج النطاق",
+      "saveFailed": "فشل حفظ الإعدادات"
+    },
+    "lastUpdated": "آخر تحديث",
+    "by": "بواسطة",
+    "sections": {
+      "personal": "المعلومات الشخصية واللغة",
+      "systemThresholds": "عتبات النظام"
+    },
+    "adminOnly": "للمسؤول فقط"
+  },
+  "zones": {
+    "passportControl": "مراقبة الجوازات",
+    "securityCheckpoint": "نقطة التفتيش الأمني",
+    "gateArea": "منطقة البوابات",
+    "baggageClaim": "استلام الأمتعة",
+    "customs": "الجمارك",
+    "vipEntrance": "مدخل كبار الشخصيات",
+    "staffEntrance": "مدخل الموظفين"
+  },
+  "map": {
+    "queueCount": "عدد الطابور",
+    "estimatedWait": "الانتظار المتوقع",
+    "activeAlerts": "التنبيهات النشطة",
+    "criticalAlerts": "التنبيهات الحرجة",
+    "recentSuspicious": "البلاغات الأخيرة (٢٤ ساعة)",
+    "cameraStatus": "حالة الكاميرا",
+    "lastUpdated": "آخر تحديث",
+    "minutes": "د",
+    "noData": "لا توجد بيانات حية بعد — قم بزرع بيانات العرض.",
+    "clickHint": "اضغط على منطقة لرؤية التفاصيل",
+    "airportTitle": "بيروت — مطار رفيق الحريري الدولي",
+    "floorPlanSubtitle": "مخطط الصالة · الحالة المباشرة",
+    "severity": {
+      "normal": "عادي",
+      "warning": "تحذير",
+      "high": "مرتفع",
+      "critical": "حرج"
+    }
+  },
+  "auth": {
+    "loginTitle": "عينك عالرجعة",
+    "username": "اسم المستخدم",
+    "password": "كلمة المرور",
+    "signIn": "تسجيل الدخول",
+    "signingIn": "جارٍ تسجيل الدخول...",
+    "noAccount": "لا تملك حساباً؟",
+    "createOne": "أنشئ حساباً",
+    "forgotPassword": "نسيت كلمة المرور؟"
+  },
+  "cameras": {
+    "title": "شبكة الكاميرات",
+    "activeFeeds": "كاميرات نشطة",
+    "live": "مباشر",
+    "off": "متوقف",
+    "offline": "غير متصل",
+    "aiProcessing": "معالجة AI",
+    "demoFootage": "لقطات تجريبية",
+    "webcamLive": "كاميرا حية",
+    "webcamDenied": "تم رفض إذن الكاميرا — العودة إلى العرض التجريبي",
+    "people": "شخص",
+    "clickForDetails": "اضغط على أي كاميرا لرؤية التفاصيل",
+    "modal": {
+      "cameraInfo": "معلومات الكاميرا",
+      "operationalData": "البيانات التشغيلية",
+      "queueCount": "عدد الطابور",
+      "estimatedWait": "الانتظار المتوقع",
+      "satisfaction": "رضا المسافر",
+      "recentAlerts": "التنبيهات الأخيرة",
+      "noRecentAlerts": "لا توجد تنبيهات حديثة لهذه الكاميرا",
+      "minutes": "د",
+      "satisfactionVerySatisfied": "راضٍ جداً",
+      "satisfactionSatisfied": "راضٍ",
+      "satisfactionNeutral": "محايد",
+      "satisfactionFrustrated": "غير راضٍ",
+      "satisfactionVeryFrustrated": "غير راضٍ بشدة",
+      "tryWebcam": "حاول الوصول إلى الكاميرا مجدداً"
+    },
+    "names": {
+      "checkInA": "صالة تسجيل الوصول A (كاميرا)",
+      "checkInB": "صالة تسجيل الوصول B",
+      "passportControl": "مراقبة الجوازات",
+      "securityCheckpoint": "نقطة التفتيش الأمني",
+      "dutyFree": "السوق الحرة",
+      "gateD": "بوابات D1–D5"
+    }
+  },
+  "users": {
+    "title": "إدارة المستخدمين",
+    "subtitle": "المسؤول · إدارة مستخدمي النظام"
+  },
+  "analytics": {
+    "title": "التحليلات والتنبؤات",
+    "subtitle": "ذكاء طوابير مدعوم بالذكاء الاصطناعي"
+  },
+  "audit": {
+    "title": "سجل التدقيق",
+    "subtitle": "إجراءات النظام · للمسؤول فقط"
+  },
+  "health": {
+    "title": "حالة النظام",
+    "subtitle": "حالة البنية التحتية الحية · للمسؤول فقط"
+  }
+}

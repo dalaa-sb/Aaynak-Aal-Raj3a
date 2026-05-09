@@ -1,0 +1,298 @@
+{
+  "common": {
+    "save": "Save",
+    "saving": "Saving...",
+    "saved": "Saved",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "loading": "Loading...",
+    "refresh": "Refresh",
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All",
+    "none": "None",
+    "yes": "Yes",
+    "no": "No",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "close": "Close",
+    "language": "Language",
+    "preview": "Preview",
+    "download": "Download",
+    "details": "Details"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "cameras": "Cameras",
+    "alerts": "Alerts",
+    "analytics": "Analytics",
+    "reports": "Reports",
+    "users": "User Mgmt",
+    "audit": "Audit Log",
+    "health": "System Health",
+    "settings": "Settings",
+    "logout": "Logout",
+    "profile": "Profile"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "passengers": "Passengers",
+    "activeAlerts": "Active Alerts",
+    "criticalZones": "Critical Zones",
+    "avgWait": "Avg Wait",
+    "lastSync": "Last sync",
+    "connecting": "Connecting...",
+    "acrossAllZones": "Across all zones",
+    "criticalSuffix": "critical",
+    "immediateAction": "Immediate action",
+    "allQueues": "All queues",
+    "interactiveMap": "Interactive Airport Map"
+  },
+  "alerts": {
+    "title": "Alerts & Incidents",
+    "subtitle": "{{count}} ACTIVE INCIDENTS · LIFECYCLE TRACKED",
+    "feed": "Alert feed",
+    "active": "{{count}} active",
+    "criticalUnresolved": "{{count}} critical unresolved",
+    "noAlerts": "All systems clear",
+    "noMatches": "No alerts match the current filters",
+    "filterStatus": "Status",
+    "filterSeverity": "Severity",
+    "status": {
+      "all": "All",
+      "active": "Active",
+      "new": "New",
+      "acknowledged": "Acknowledged",
+      "investigating": "Investigating",
+      "resolved": "Resolved",
+      "dismissed": "Dismissed"
+    },
+    "severity": {
+      "critical": "Critical",
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "actions": {
+      "acknowledge": "Acknowledge",
+      "investigate": "Investigate",
+      "resolve": "Resolve",
+      "dismiss": "Dismiss",
+      "trail": "Trail",
+      "hide": "Hide"
+    },
+    "noteFor": "Reason for {{status}} (optional)…",
+    "showing": "Showing {{count}}",
+    "bulk": {
+      "dismissFiltered": "Dismiss filtered",
+      "deleteFiltered": "Delete filtered",
+      "dismissedN": "Dismissed {{count}} alert(s)",
+      "deletedN": "Deleted {{count}} alert(s)",
+      "failed": "Bulk action failed",
+      "dismissConfirmTitle": "Dismiss filtered alerts?",
+      "dismissConfirmBody": "This will mark {{count}} alert(s) as dismissed. They will not be deleted.",
+      "deleteConfirmTitle": "Delete filtered alerts?",
+      "deleteConfirmBody": "This will permanently delete {{count}} alert(s). This action cannot be undone.",
+      "confirmDismiss": "Dismiss",
+      "confirmDelete": "Delete"
+    }
+  },
+  "suspicious": {
+    "title": "Report Suspicious Activity",
+    "selectZone": "Select Zone",
+    "selectCamera": "Select Camera",
+    "activityType": "Activity Type",
+    "selectActivity": "— Select activity type —",
+    "customActivity": "Type custom activity…",
+    "severity": "Severity",
+    "notes": "Additional notes (optional)…",
+    "submit": "Submit Report",
+    "submitting": "Submitting...",
+    "success": "Report filed and added to the Reports archive.",
+    "officialArabicLabel": "Official Arabic Activity Type",
+    "officialArabicHelper": "These are standardized Arabic operational labels used by airport security. The list is intentionally Arabic.",
+    "selectZoneError": "Select a zone",
+    "selectCameraError": "Select a camera",
+    "selectActivityError": "Select an activity",
+    "typeCustomError": "Type the activity description",
+    "severityPrefix": "Severity"
+  },
+  "reports": {
+    "title": "Reports & Analytics",
+    "subtitle": "CENTRALIZED REPORTING · AI-ASSISTED",
+    "tabs": {
+      "generated": "Generated",
+      "suspicious": "Suspicious Activity"
+    },
+    "aiAssistant": {
+      "title": "Automated Analytical Report Assistant",
+      "description": "Aggregates operational data and generates a structured report with insights, anomalies, and recommendations. Deterministic statistical analysis — privacy-friendly, offline-capable.",
+      "generateDaily": "Generate Daily (24h)",
+      "generateWeekly": "Generate Weekly (7d)",
+      "generateMonthly": "Generate Monthly (30d)"
+    },
+    "noReports": "No reports yet",
+    "noReportsAdmin": "Click a generate button above to create your first report.",
+    "noReportsUser": "An admin can generate reports — they will appear here.",
+    "noSuspicious": "No suspicious activity reports",
+    "noSuspiciousHint": "Field officers can submit suspicious activity reports from the Alerts page.",
+    "actions": {
+      "preview": "Preview",
+      "downloadPdf": "Download PDF",
+      "delete": "Delete"
+    },
+    "kv": {
+      "bySeverity": "By Severity",
+      "byZone": "By Zone",
+      "byType": "By Activity Type"
+    }
+  },
+  "profile": {
+    "title": "Edit Profile",
+    "subtitle": "Update your personal information",
+    "fullName": "Full Name",
+    "username": "Username",
+    "email": "Email",
+    "phone": "Phone (optional)",
+    "phonePlaceholder": "+961 70 000 000",
+    "role": "Role",
+    "language": "Preferred Language",
+    "saveProfile": "Save Profile",
+    "savedSuccessfully": "Profile saved successfully",
+    "usernameNote": "Username cannot be changed after signup",
+    "emailNote": "Email change requires re-verification (not yet supported)",
+    "roleNote": "Your role is set by an administrator",
+    "languageNote": "The interface will switch immediately"
+  },
+  "settings": {
+    "title": "System Settings",
+    "subtitle": "ADMIN · CONFIGURE THRESHOLDS & PARAMETERS",
+    "subtitleNonAdmin": "PERSONAL PREFERENCES",
+    "thresholds": {
+      "title": "Queue Threshold Configuration",
+      "queueWarning": "Queue Warning (people)",
+      "queueWarningDesc": "Normal → Warning",
+      "queueCritical": "Queue Critical (people)",
+      "queueCriticalDesc": "Warning → Critical",
+      "densityWarning": "Density Warning (%)",
+      "densityWarningDesc": "Crowd density threshold",
+      "densityCritical": "Density Critical (%)",
+      "densityCriticalDesc": "Max crowd density",
+      "loiterMinutes": "Loiter Time (minutes)",
+      "loiterMinutesDesc": "Loitering alert trigger",
+      "maxStayMinutes": "Max Area Stay (minutes)",
+      "maxStayMinutesDesc": "Overstay alert trigger",
+      "confidenceThreshold": "AI Confidence Threshold",
+      "confidenceThresholdDesc": "0.0 to 1.0"
+    },
+    "saved": "Settings saved",
+    "errors": {
+      "negativeNotAllowed": "Negative values are not allowed",
+      "criticalLessThanWarning": "Critical threshold must be ≥ warning threshold",
+      "outOfRange": "Value is out of range",
+      "saveFailed": "Failed to save settings"
+    },
+    "lastUpdated": "Last updated",
+    "by": "by",
+    "sections": {
+      "personal": "Personal Information & Language",
+      "systemThresholds": "System Thresholds"
+    },
+    "adminOnly": "ADMIN ONLY"
+  },
+  "zones": {
+    "passportControl": "Passport Control",
+    "securityCheckpoint": "Security Checkpoint",
+    "gateArea": "Gate Area",
+    "baggageClaim": "Baggage Claim",
+    "customs": "Customs",
+    "vipEntrance": "VIP Entrance",
+    "staffEntrance": "Staff Entrance"
+  },
+  "map": {
+    "queueCount": "Queue count",
+    "estimatedWait": "Estimated wait",
+    "activeAlerts": "Active alerts",
+    "criticalAlerts": "Critical alerts",
+    "recentSuspicious": "Recent suspicious (24h)",
+    "cameraStatus": "Camera status",
+    "lastUpdated": "Last updated",
+    "minutes": "min",
+    "noData": "No live data yet — seed demo data to populate.",
+    "clickHint": "Click a zone to see details",
+    "airportTitle": "BEIRUT — RAFIC HARIRI INTERNATIONAL AIRPORT",
+    "floorPlanSubtitle": "TERMINAL FLOOR PLAN · LIVE STATUS",
+    "severity": {
+      "normal": "NORMAL",
+      "warning": "WARNING",
+      "high": "HIGH",
+      "critical": "CRITICAL"
+    }
+  },
+  "auth": {
+    "loginTitle": "Aaynak Aal Raj3a",
+    "username": "Username",
+    "password": "Password",
+    "signIn": "Sign In",
+    "signingIn": "Signing in...",
+    "noAccount": "No account?",
+    "createOne": "Create one",
+    "forgotPassword": "Forgot password?"
+  },
+  "cameras": {
+    "title": "Camera Network",
+    "activeFeeds": "Cameras Active",
+    "live": "LIVE",
+    "off": "OFF",
+    "offline": "Offline",
+    "aiProcessing": "AI PROCESSING",
+    "demoFootage": "DEMO FOOTAGE",
+    "webcamLive": "WEBCAM LIVE",
+    "webcamDenied": "Webcam permission denied — falling back to demo",
+    "people": "ppl",
+    "clickForDetails": "Click any camera to see live details",
+    "modal": {
+      "cameraInfo": "Camera Info",
+      "operationalData": "Operational Data",
+      "queueCount": "Queue Count",
+      "estimatedWait": "Estimated Wait",
+      "satisfaction": "Passenger Satisfaction",
+      "recentAlerts": "Recent Alerts",
+      "noRecentAlerts": "No recent alerts for this camera",
+      "minutes": "min",
+      "satisfactionVerySatisfied": "Very satisfied",
+      "satisfactionSatisfied": "Satisfied",
+      "satisfactionNeutral": "Neutral",
+      "satisfactionFrustrated": "Frustrated",
+      "satisfactionVeryFrustrated": "Very frustrated",
+      "tryWebcam": "Try webcam again"
+    },
+    "names": {
+      "checkInA": "Check-in Hall A (Webcam)",
+      "checkInB": "Check-in Hall B",
+      "passportControl": "Passport Control",
+      "securityCheckpoint": "Security Checkpoint",
+      "dutyFree": "Duty Free Area",
+      "gateD": "Gate D1–D5"
+    }
+  },
+  "users": {
+    "title": "User Management",
+    "subtitle": "ADMIN · MANAGE SYSTEM USERS"
+  },
+  "analytics": {
+    "title": "Analytics & Predictions",
+    "subtitle": "AI-DRIVEN QUEUE INTELLIGENCE"
+  },
+  "audit": {
+    "title": "Audit Log",
+    "subtitle": "SYSTEM ACTIONS · ADMIN ONLY"
+  },
+  "health": {
+    "title": "System Health",
+    "subtitle": "LIVE INFRASTRUCTURE STATUS · ADMIN ONLY"
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "common": {
+    "save": "Enregistrer",
+    "saving": "Enregistrement...",
+    "saved": "Enregistré",
+    "cancel": "Annuler",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "confirm": "Confirmer",
+    "loading": "Chargement...",
+    "refresh": "Actualiser",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "all": "Tout",
+    "none": "Aucun",
+    "yes": "Oui",
+    "no": "Non",
+    "back": "Retour",
+    "next": "Suivant",
+    "submit": "Envoyer",
+    "close": "Fermer",
+    "language": "Langue",
+    "preview": "Aperçu",
+    "download": "Télécharger",
+    "details": "Détails"
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "cameras": "Caméras",
+    "alerts": "Alertes",
+    "analytics": "Analytique",
+    "reports": "Rapports",
+    "users": "Utilisateurs",
+    "audit": "Journal d'audit",
+    "health": "État du système",
+    "settings": "Paramètres",
+    "logout": "Déconnexion",
+    "profile": "Profil"
+  },
+  "dashboard": {
+    "title": "Tableau de bord",
+    "passengers": "Passagers",
+    "activeAlerts": "Alertes actives",
+    "criticalZones": "Zones critiques",
+    "avgWait": "Attente moy.",
+    "lastSync": "Dernière sync",
+    "connecting": "Connexion...",
+    "acrossAllZones": "Toutes zones confondues",
+    "criticalSuffix": "critiques",
+    "immediateAction": "Action immédiate",
+    "allQueues": "Toutes les files",
+    "interactiveMap": "Carte interactive de l'aéroport"
+  },
+  "alerts": {
+    "title": "Alertes & Incidents",
+    "subtitle": "{{count}} INCIDENTS ACTIFS · CYCLE DE VIE SUIVI",
+    "feed": "Flux d'alertes",
+    "active": "{{count}} actives",
+    "criticalUnresolved": "{{count}} critiques non résolues",
+    "noAlerts": "Tous les systèmes sont normaux",
+    "noMatches": "Aucune alerte ne correspond aux filtres",
+    "filterStatus": "Statut",
+    "filterSeverity": "Gravité",
+    "status": {
+      "all": "Tout",
+      "active": "Actif",
+      "new": "Nouveau",
+      "acknowledged": "Reçu",
+      "investigating": "En enquête",
+      "resolved": "Résolu",
+      "dismissed": "Rejeté"
+    },
+    "severity": {
+      "critical": "Critique",
+      "high": "Élevée",
+      "medium": "Moyenne",
+      "low": "Faible"
+    },
+    "actions": {
+      "acknowledge": "Accuser",
+      "investigate": "Enquêter",
+      "resolve": "Résoudre",
+      "dismiss": "Rejeter",
+      "trail": "Trace",
+      "hide": "Masquer"
+    },
+    "noteFor": "Raison de {{status}} (optionnel)…",
+    "showing": "Affichage de {{count}}",
+    "bulk": {
+      "dismissFiltered": "Rejeter les filtrées",
+      "deleteFiltered": "Supprimer les filtrées",
+      "dismissedN": "{{count}} alerte(s) rejetée(s)",
+      "deletedN": "{{count}} alerte(s) supprimée(s)",
+      "failed": "L'action groupée a échoué",
+      "dismissConfirmTitle": "Rejeter les alertes filtrées ?",
+      "dismissConfirmBody": "Ceci marquera {{count}} alerte(s) comme rejetée(s). Elles ne seront pas supprimées.",
+      "deleteConfirmTitle": "Supprimer les alertes filtrées ?",
+      "deleteConfirmBody": "Ceci supprimera définitivement {{count}} alerte(s). Cette action est irréversible.",
+      "confirmDismiss": "Rejeter",
+      "confirmDelete": "Supprimer"
+    }
+  },
+  "suspicious": {
+    "title": "Signaler une activité suspecte",
+    "selectZone": "Sélectionner une zone",
+    "selectCamera": "Sélectionner une caméra",
+    "activityType": "Type d'activité",
+    "selectActivity": "— Sélectionner le type —",
+    "customActivity": "Saisir l'activité…",
+    "severity": "Gravité",
+    "notes": "Notes additionnelles (optionnel)…",
+    "submit": "Envoyer le signalement",
+    "submitting": "Envoi...",
+    "success": "Signalement envoyé et ajouté aux archives.",
+    "officialArabicLabel": "Type d'activité officiel en arabe",
+    "officialArabicHelper": "Ces libellés en arabe sont les labels opérationnels standard utilisés par la sécurité aéroportuaire. La liste reste intentionnellement en arabe.",
+    "selectZoneError": "Sélectionnez une zone",
+    "selectCameraError": "Sélectionnez une caméra",
+    "selectActivityError": "Sélectionnez un type d'activité",
+    "typeCustomError": "Saisissez la description de l'activité",
+    "severityPrefix": "Gravité"
+  },
+  "reports": {
+    "title": "Rapports & Analytique",
+    "subtitle": "RAPPORTS CENTRALISÉS · ASSISTANT AUTOMATIQUE",
+    "tabs": {
+      "generated": "Générés",
+      "suspicious": "Activité suspecte"
+    },
+    "aiAssistant": {
+      "title": "Assistant analytique automatisé",
+      "description": "Agrège les données opérationnelles et génère un rapport structuré avec aperçus, anomalies et recommandations. Analyse statistique déterministe — respectueuse de la vie privée, fonctionne hors ligne.",
+      "generateDaily": "Quotidien (24h)",
+      "generateWeekly": "Hebdomadaire (7j)",
+      "generateMonthly": "Mensuel (30j)"
+    },
+    "noReports": "Aucun rapport pour l'instant",
+    "noReportsAdmin": "Cliquez sur un bouton de génération pour créer un premier rapport.",
+    "noReportsUser": "Un administrateur peut générer des rapports — ils apparaîtront ici.",
+    "noSuspicious": "Aucun signalement d'activité suspecte",
+    "noSuspiciousHint": "Les agents de terrain peuvent envoyer des signalements depuis la page Alertes.",
+    "actions": {
+      "preview": "Aperçu",
+      "downloadPdf": "Télécharger PDF",
+      "delete": "Supprimer"
+    },
+    "kv": {
+      "bySeverity": "Par gravité",
+      "byZone": "Par zone",
+      "byType": "Par type d'activité"
+    }
+  },
+  "profile": {
+    "title": "Modifier le profil",
+    "subtitle": "Mettez à jour vos informations personnelles",
+    "fullName": "Nom complet",
+    "username": "Nom d'utilisateur",
+    "email": "E-mail",
+    "phone": "Téléphone (optionnel)",
+    "phonePlaceholder": "+961 70 000 000",
+    "role": "Rôle",
+    "language": "Langue préférée",
+    "saveProfile": "Enregistrer le profil",
+    "savedSuccessfully": "Profil enregistré avec succès",
+    "usernameNote": "Le nom d'utilisateur ne peut pas être modifié",
+    "emailNote": "Le changement d'e-mail nécessite une nouvelle vérification (non disponible)",
+    "roleNote": "Votre rôle est défini par un administrateur",
+    "languageNote": "L'interface changera immédiatement"
+  },
+  "settings": {
+    "title": "Paramètres système",
+    "subtitle": "ADMIN · CONFIGURATION DES SEUILS",
+    "subtitleNonAdmin": "PRÉFÉRENCES PERSONNELLES",
+    "thresholds": {
+      "title": "Configuration des seuils de file",
+      "queueWarning": "File - Alerte (personnes)",
+      "queueWarningDesc": "Normal → Alerte",
+      "queueCritical": "File - Critique (personnes)",
+      "queueCriticalDesc": "Alerte → Critique",
+      "densityWarning": "Densité - Alerte (%)",
+      "densityWarningDesc": "Seuil de densité de foule",
+      "densityCritical": "Densité - Critique (%)",
+      "densityCriticalDesc": "Densité maximale",
+      "loiterMinutes": "Temps de flânerie (minutes)",
+      "loiterMinutesDesc": "Déclencheur d'alerte de flânerie",
+      "maxStayMinutes": "Temps de séjour max (minutes)",
+      "maxStayMinutesDesc": "Déclencheur de séjour prolongé",
+      "confidenceThreshold": "Seuil de confiance IA",
+      "confidenceThresholdDesc": "0,0 à 1,0"
+    },
+    "saved": "Paramètres enregistrés",
+    "errors": {
+      "negativeNotAllowed": "Les valeurs négatives ne sont pas autorisées",
+      "criticalLessThanWarning": "Le seuil critique doit être ≥ au seuil d'alerte",
+      "outOfRange": "Valeur hors limites",
+      "saveFailed": "Échec de l'enregistrement"
+    },
+    "lastUpdated": "Dernière mise à jour",
+    "by": "par",
+    "sections": {
+      "personal": "Informations personnelles et langue",
+      "systemThresholds": "Seuils système"
+    },
+    "adminOnly": "ADMIN UNIQUEMENT"
+  },
+  "zones": {
+    "passportControl": "Contrôle des passeports",
+    "securityCheckpoint": "Point de contrôle sécurité",
+    "gateArea": "Zone d'embarquement",
+    "baggageClaim": "Récupération bagages",
+    "customs": "Douane",
+    "vipEntrance": "Entrée VIP",
+    "staffEntrance": "Entrée du personnel"
+  },
+  "map": {
+    "queueCount": "File d'attente",
+    "estimatedWait": "Attente estimée",
+    "activeAlerts": "Alertes actives",
+    "criticalAlerts": "Alertes critiques",
+    "recentSuspicious": "Suspectes récentes (24h)",
+    "cameraStatus": "État caméra",
+    "lastUpdated": "Mise à jour",
+    "minutes": "min",
+    "noData": "Pas encore de données — exécutez le seed de démo.",
+    "clickHint": "Cliquez sur une zone pour voir les détails",
+    "airportTitle": "BEYROUTH — AÉROPORT INTERNATIONAL RAFIC HARIRI",
+    "floorPlanSubtitle": "PLAN DU TERMINAL · ÉTAT EN DIRECT",
+    "severity": {
+      "normal": "NORMAL",
+      "warning": "ALERTE",
+      "high": "ÉLEVÉ",
+      "critical": "CRITIQUE"
+    }
+  },
+  "auth": {
+    "loginTitle": "Aaynak Aal Raj3a",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "signIn": "Connexion",
+    "signingIn": "Connexion...",
+    "noAccount": "Pas de compte ?",
+    "createOne": "Créer un compte",
+    "forgotPassword": "Mot de passe oublié ?"
+  },
+  "cameras": {
+    "title": "Réseau de caméras",
+    "activeFeeds": "Caméras actives",
+    "live": "DIRECT",
+    "off": "ARRÊT",
+    "offline": "Hors ligne",
+    "aiProcessing": "TRAITEMENT IA",
+    "demoFootage": "VIDÉO DE DÉMO",
+    "webcamLive": "WEBCAM EN DIRECT",
+    "webcamDenied": "Permission webcam refusée — utilisation de la vidéo de démo",
+    "people": "pers.",
+    "clickForDetails": "Cliquez sur une caméra pour voir les détails",
+    "modal": {
+      "cameraInfo": "Infos caméra",
+      "operationalData": "Données opérationnelles",
+      "queueCount": "File d'attente",
+      "estimatedWait": "Attente estimée",
+      "satisfaction": "Satisfaction passager",
+      "recentAlerts": "Alertes récentes",
+      "noRecentAlerts": "Aucune alerte récente pour cette caméra",
+      "minutes": "min",
+      "satisfactionVerySatisfied": "Très satisfait",
+      "satisfactionSatisfied": "Satisfait",
+      "satisfactionNeutral": "Neutre",
+      "satisfactionFrustrated": "Frustré",
+      "satisfactionVeryFrustrated": "Très frustré",
+      "tryWebcam": "Réessayer la webcam"
+    },
+    "names": {
+      "checkInA": "Hall d'enregistrement A (Webcam)",
+      "checkInB": "Hall d'enregistrement B",
+      "passportControl": "Contrôle des passeports",
+      "securityCheckpoint": "Point de contrôle sécurité",
+      "dutyFree": "Zone duty free",
+      "gateD": "Portes D1–D5"
+    }
+  },
+  "users": {
+    "title": "Gestion des utilisateurs",
+    "subtitle": "ADMIN · GÉRER LES UTILISATEURS"
+  },
+  "analytics": {
+    "title": "Analyses et prédictions",
+    "subtitle": "INTELLIGENCE DES FILES PILOTÉE PAR IA"
+  },
+  "audit": {
+    "title": "Journal d'audit",
+    "subtitle": "ACTIONS SYSTÈME · ADMIN UNIQUEMENT"
+  },
+  "health": {
+    "title": "État du système",
+    "subtitle": "ÉTAT DE L'INFRASTRUCTURE EN DIRECT · ADMIN UNIQUEMENT"
+  }
+}
