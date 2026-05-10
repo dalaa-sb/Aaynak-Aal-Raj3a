@@ -1,6 +1,9 @@
 const IS_DEV = window.location.port === "3000";
-export const API_BASE = IS_DEV ? "" : "http://localhost:8000";
-export const WS_URL = IS_DEV ? `ws://localhost:3000/ws` : "ws://localhost:8000/ws";
+const PROD_API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
+const PROD_WS_BASE  = import.meta.env.VITE_WS_BASE_URL  || "ws://localhost:8000";
+
+export const API_BASE = IS_DEV ? "" : PROD_API_BASE;
+export const WS_URL   = IS_DEV ? `ws://localhost:3000/ws` : `${PROD_WS_BASE}/ws`;
 
 export const FONT = "'Inter', sans-serif";
 export const MONO = "'JetBrains Mono', monospace";
